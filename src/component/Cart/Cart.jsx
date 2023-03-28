@@ -9,9 +9,10 @@ const Cart = ({cart}) => {
     let quantity = 0;
     for (const product of cart){
         // two way system
-        if(product.quantity === 0){
-            product.quantity = 1;
-        }
+        // if(product.quantity === 0){
+        //     product.quantity = 1;
+        // }
+        // same way
         // product.quantity=product.quantity || 1;
         total = total + product.price*product.quantity
         totalShipping= totalShipping+ product.shipping;
