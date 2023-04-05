@@ -8,3 +8,16 @@
     gap: 30px;
     margin: 25px 50px 75px 100px;
 }
+.btn-proceed{
+    width: 90%;
+    height: 40px;
+    font-size: 15px;
+    margin: 10px auto;
+    background:orange;
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
